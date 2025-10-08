@@ -5,7 +5,7 @@ from astropy.io import fits
 
 
 class ImageIO:
-    def load_fits(self, path):
+    def load_fits(self, path) -> fits.HDUList:
         """_summary_
 
         Args:
