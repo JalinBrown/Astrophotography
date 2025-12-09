@@ -20,14 +20,14 @@ output_fits.parent.mkdir(parents=True, exist_ok=True)
 
 
 GRADIENT_MESH_SIZE = 128
-STRETCH_MULTIPLIER = 0.080   # Aggressive stretch to lift faint detail.
-STAR_REDUCTION_FACTOR = 0.5  # Keeps stars brighter (less reduction).
+STRETCH_MULTIPLIER = 0.070   # Aggressive stretch to lift faint detail.
+STAR_REDUCTION_FACTOR = 0.3  # Keeps stars brighter (less reduction).
 SATURATION_BOOST = 2.0       # Vibrant color.
 BLUE_PUSH = 1.00             
 RED_PUSH = 1.00              
-BOOST_FACTOR = 0.5           # Local contrast applied to the STRETCHED image.
+BOOST_FACTOR = 0.6           # Local contrast applied to the STRETCHED image.
 BLACK_POINT = 1.5            # Crushes the lifted gray background to black.
-GAMMA = 0.8                  # Brightens mid-tones (galaxy structure) for final pop.
+GAMMA = 0.9                  # Brightens mid-tones (galaxy structure) for final pop.
 
 
 def remove_gradient(img, mesh=GRADIENT_MESH_SIZE):

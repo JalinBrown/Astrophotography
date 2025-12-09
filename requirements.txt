@@ -1,8 +1,3 @@
-astropy==7.1.0
-astropy-iers-data==0.2025.10.6.0.35.25
-numpy==2.3.3
-packaging==25.0
-pyerfa==2.0.1.5
-PyYAML==6.0.3
-setuptools==78.1.1
-wheel==0.45.1
+astropy
+numpy
+scikit-image
